@@ -13,7 +13,7 @@ const foodRouter = express.Router();
 //     }
 // })
 
-const upload = multer({storage:storage});
+//const upload = multer({storage:storage});
 
 // foodRouter.post('/add', upload.single('image'), addFood);
 foodRouter.get('/list', listfood);
